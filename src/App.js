@@ -27,6 +27,9 @@ function evaluate({ currentOperand, prevOperand, operator }) {
     case "*": {
       return (prev * current).toString();
     }
+    default: {
+      return {};
+    }
   }
 }
 
